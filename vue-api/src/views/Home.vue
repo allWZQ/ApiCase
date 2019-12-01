@@ -11,6 +11,14 @@
     <watch3 />
     <watch4 />
     <father />
+    <refDom1 />
+    <nextTick />
+    <vModel />
+    <vBlid />
+    <vIf />
+    <vShow />
+    <vFor />
+    <liveCycle />
   </div>
 </template>
 <script>
@@ -25,6 +33,14 @@ import watch2 from "../components/watch2";
 import watch3 from "../components/watch3";
 import watch4 from "../components/watch4";
 import father from "../components/father";
+import refDom1 from "../components/refDom1";
+import nextTick from "../components/nextTick";
+import vModel from "../components/v-model";
+import vBlid from "../components/v-blid";
+import vIf from "../components/v-if";
+import vShow from "../components/v-show";
+import vFor from "../components/v-for";
+import liveCycle from "../components/liveCycle";
 export default {
   name: "home",
   components: {
@@ -38,7 +54,15 @@ export default {
     watch2,
     watch3,
     watch4,
-    father
+    father,
+    refDom1,
+    nextTick,
+    vModel,
+    vBlid,
+    vIf,
+    vShow,
+    vFor,
+    liveCycle
   }
 };
 </script>
